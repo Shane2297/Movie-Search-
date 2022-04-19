@@ -24,7 +24,7 @@ const ModalCard = function Example({ more }) {
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body className='modalBody'>
-                    <img src={more.Poster}></img>
+                    <img src={more.Poster} alt={more.Title}></img>
                     <div className='modalBodyDetails'>
                         <div className='rating'>{more.imdbRating}</div>
                         <div className='details'>{more.Genre}</div>
